@@ -25,10 +25,11 @@
 
 <script src="js/custom.js"></script>
     <script>
-        function showmsg()
+        function Showmsg()
         {
-		document.getElementById("error").style.display = '';
-		document.getElementById("test").style.margin-top = '110px';
+		
+		//document.getElementById("error").style.display = '';
+		//document.getElementById("test").style.margin-top = '110px';
 		                      var inputVal = document.getElementById("adharNoOrVirtualId").value;
                                    
 									if (inputVal == "") {
@@ -37,9 +38,10 @@
 else
 {
 
-document.getElementById("test").style.margin-top = '110px';
+//document.getElementById("test").style.margin-top = '110px';
             
-            document.getElementById("error").innerHTML = "Agent Deactivated";
+            //document.getElementById("error").innerHTML = "Agent Deactivated";
+			alert("Agent Deactivated");
         }
 		}
     </script>
@@ -148,7 +150,7 @@ form:before {
                                 <label class="sr-only"><span>Aadhar No /virtual No.</span></label>
                                <!--  <input type="text" class="form-control" placeholder="Jane Doe"> -->
                                 <input id="adharNoOrVirtualId" name="adharNoOrVirtualId" placeholder="Aadhar No./Virtual Id" class="form-control"  type="text">
-								<label id="error" style="display:none; font-size:small; color:red"> </label>
+								
 
 										
                             </div>
@@ -158,7 +160,7 @@ form:before {
 
 
                             		<div class="text-center col-md-5">                        
-			                            <button id="aadharBtnId" onclick="showmsg();" style="width: 100px;height:fit-content; background: white;border: white;color: black;text-color: black;font-color: black;font-weight: 600;font-family: initial;background: white;" title="Capture Biometric" type="button" class="btn btn-primary" value="Submit">Capture</button>
+			                            <button id="aadharBtnId" onclick="Showmsg();" style="width: 100px;height:fit-content; background: white;border: white;color: black;text-color: black;font-color: black;font-weight: 600;font-family: initial;background: white;" title="Capture Biometric" type="button" class="btn btn-primary" value="Submit">Capture</button>
 										
 														
                             		</div>    
