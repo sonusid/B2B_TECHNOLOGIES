@@ -155,7 +155,7 @@ a:focus {
 .logo-header-section {
 	padding: 10px 20px;
 	/* background: linear-gradient(to left,#f69e4d,#5855ae,#f69e4d);  commented on 23042021*/
-	background: linear-gradient(to left,#10b2aa,#0e7e4b,#10b2aa);
+	background: linear-gradient(to left,#344f8d,#4246d1,#7d7aa5);
 }
 .pmjay-logo img {
 	width: 100px;
@@ -1878,9 +1878,9 @@ nav a#pull {
 	top: 5px;
   }
   /**/
-  /*——————————————
+  /*Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—
   Responsive Stuff
-  ———————————————*/
+  Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—*/
   
   @media (max-width: 945px) {
 	.timeline .event::before {
@@ -1940,9 +1940,9 @@ nav a#pull {
   /* Ended by vipul kumar 0n 04032021 */
   
 
-  /*——————————————
+  /*Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—
   others
-  ———————————————*/
+  Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—Â—*/
   
   a.portfolio-link {
 	margin: 0 auto;
