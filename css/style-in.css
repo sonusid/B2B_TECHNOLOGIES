@@ -19,7 +19,7 @@ header {
 .logo-header-section {
 	padding: 10px 15px 0 15px;
 	/* background: linear-gradient(to left,#f69e4d,#5855ae,#f69e4d); commented on 23042021*/
-	background: linear-gradient(to left,#10b2aa,#0e7e4b,#10b2aa);
+	background: linear-gradient(to left,#bc6e37d4,#8ea416,#28311b);
 }
 .navbar-fixed-top_header { 
 	background-color: #f4f4f4;
@@ -33,7 +33,7 @@ header {
     /* font-family: monospace; commented by vipul kumar on 23042021*/
     font-family: serif;
 	/* padding-top: 30px; */
-	text-shadow: 3px 3px 5px black;
+	text-shadow: 3px 16px 9px black;
 	font-size: 30px;
 	padding-top: 20px;
 }
