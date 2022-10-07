@@ -1,255 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!DOCTYPE html>
-<html lang="en"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+.gradient-custom {
+/* fallback for old browsers */
+background: #6a11cb;
 
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
 
-<!-- Mirrored from www.pmjay.USEINDIA.com/pmjayecard/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jun 2021 11:07:00 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
-						 <head>
-
-						 	<!-- Basic -->
-						 	<meta charset="utf-8">
-						 	<title>Adhaar Authintication</title>
-
-						 	<!-- Mobile Specific Metas -->
-						 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-						 	<!-- Libs CSS -->
-						 	<link href="css/bootstrap.css" rel="stylesheet">
-						 	<link href="css/font-awesome.min.css" rel="stylesheet">
-						 	<link href="css/prettyPhoto.css" rel="stylesheet">
-						 	<link href="css/flexslider.css" rel="stylesheet">
-						 	<link href="css/owl.carousel.css" rel="stylesheet">
-
-						 	<!-- On Scroll Animations -->
-						 	<link href="css/animate.css" rel="stylesheet">
-
-						 	<!-- Template CSS -->
-						 	<link href="css/style.css" rel="stylesheet">
-
-						 	<!-- Responsive CSS -->
-						 	<link href="css/responsive.css" rel="stylesheet">
-
-						 	<!-- Favicons -->
-						 	<link rel="shortcut icon" href="images/USEINDIA.png">
-
-<script src="js/jquery-3.5.2.min.js" type="text/javascript"></script>
-						 	<style type="text/css">
-							.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
 }
-								  .blink-one {
-								   /*  animation: blinker-two 2s linear infinite;
-						   */
-								   animation: blinker-one .6s linear infinite;
-								   color: yellow;
-								  }
+img{
 
-								  @keyframes blinker-one {
-								   50% {
-									   opacity: 0;
-								   }
-						 	</style>
-						 	<script>
+
+    width: 128px;
+    height: 107px;
+
+}
+.card
+{
+    border: 8px solid rgb(4 20 79) !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #10447c;
+    border-color: #007bff;
+}
+</style>
+<script>
 
 								function validateForm()
 								{
 								
-									var inputVal = document.getElementById("userId").value;
-                                    var y = document.getElementById("password").value;
+									var inputVal = document.getElementById("form3Example1").value;
+                                    var y = document.getElementById("form3Example2").value;
 									if (inputVal == "") {
-										alert("Please Enter userId ");
+										alert("Please Enter Mobile number");
 										
 									}
 
 									else if (y == "") {
 										alert("Please enter Password");
 									}
-									else if (inputVal == "B2B" && y == "b2b@345")
-									{
-                                       //window.location.href = "useindia.html";
-									window.location.href = "http://www.w3schools.com";
-									 if (y == "b2b@345")
-									 {
-										 window.location.href = "useindia.html";
-									 }
-
-										 else
-										 {
-											 alert("userid and password wrong");
-                                         }
-										
-									}
+									
                                     
 
-                                    // Displaying the value
-                                    //alert(inputVal);
-                                   
-									   //window.location.href = "Login.aspx";
 								      
 						        }
 
 
 						 	</script>
-	
-						 </head>
-	<body>
-	
-		<!-- HEADER
-		============================================= -->
-		<header id="header">		
-			<div class="navbar navbar-background-color">	
-				<input type="hidden" id= "showFlashMsgModel">
-				<div class="container-fluid logo-header-section">
-					<div class="row">
-						<div class="col-sm-2 pmjay-logo">
-							<img src="images/1200px-Aadhaar_Logo.svg.png" alt="PMJAY Logo">
-						</div>
-						<div class="col-sm-8 project-title">
-							<h2>Welcome to B2B TECHNOLOGIES <br /> Update Aadhar Card</h2>
-						</div>
-						<div class="col-sm-2 USEINDIA-logo">
-						<a href="http://www.USEINDIA.com/" target="_new">	<img src="images/1200px-Aadhaar_Logo.svg.png" alt="USEINDIA Logo"></a>
-						</div>
-					</div>
-				</div>
-				
-				<div id="my-fixed-menu" class="container-fluid">
+    <title>Adhaar Center Login</title>
+  </head>
+  <body>
 
-					<!-- Navigation Bar -->
-					<div class="navbar-header">
-					
-						<!-- Responsive Menu -->
-						<button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu">
-							<span class="sr-only">Toggle navigation</span> 
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>						
-					</div>	<!-- End Navigation Bar -->
-					
-					
-					
-					
-					
-				</div>	  <!-- End container -->
-			</div>		<!-- End navbar fixed top  -->		
-		</header>	<!-- END HEADER -->
-		
-		
+<!-- Section: Design Block -->
+<section class="text-center">
+  <!-- Background image -->
+  <div class="p-5 bg-image" style="
+        background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+        height: 300px;
+        "></div>
+  <!-- Background image -->
 
-				<!--
-			<div class="modale opened" aria-hidden="true" id="login-form-modal">
-				<div class="modal-dialog">
-				<div class="modal-header">
-					<h2 class="btn">User Login <a href="#" class="btn-close closemodale" aria-hidden="true">&times;</a></h2>
-					
-				</div>
-				<div class="modal-body">
-					<input id="userId" class="example"  placeholder="User Name" class="form-control" type="text" />
-						 
-				<input id="password"  placeholder="Password" class="form-control" type="password"/>
-				  
-					
-				</div>
-				<div class="modal-footer">
-					<button id="loginBtnId" style="background-color: #0c9d89;" title="submit" type="button" onclick="validateForm();" class="btn btn-success" value="Submit">Get In</button>
-					
-</div>
-				</div>
-			</div> -->
-
- <section class="vh-100" style="margin-top:55px !important;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex align-items-center justify-content-center h-100" style="background-color: #1f1a1afa;border-radius: 54px;">
-    
-      <div class="col-md-5 col-lg-5 col-xl-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" height="300" alt="Phone image">
-      </div>
-      <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-      
-          
-          <div class="form-outline mb-4">
-		   <label class="form-label"  class="example" style="color:white;"   for="form1Example13">User ID</label>
-            <input type="text" id="userId" placeholder="User ID" class="form-control form-control-lg" />
-           
-          </div>
-
-          
-          <div class="form-outline mb-4">
-		   <label class="form-label" style="color:white;"   for="form1Example23">Password</label>
-            <input type="password" id="password"  placeholder="Password" class="form-control form-control-lg" />
-           
-          </div>
-
-          <div class="d-flex justify-content-around align-items-center mb-4">
-           
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="form1Example3"
-                checked
-              />
-              <label class="form-check-label" for="form1Example3"> Remember me </label>
+  <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+        margin-top: -190px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+    <div class="card-body py-5 px-md-5">
+<img src="images/1200px-Aadhaar_Logo.svg.png" alt="USEINDIA Logo">
+      <div class="row d-flex justify-content-center">
+	  
+        <div class="col-lg-8">
+          <h1 class="fw-bold mb-5" style="color:#0f186a;">Aadhaar Center Login</h2>
+		  <p>Please Enter registered Mobile no. and email id</p>
+          <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-outline">
+				<label class="form-label"  for="form3Example1">Mobile Number</label>
+                  <input type="text" id="form3Example1" class="form-control" />
+                  
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-outline">
+				<label class="form-label" for="form3Example2">Password</label>
+                  <input type="password" id="form3Example2" class="form-control" />
+                  
+                </div>
+              </div>
             </div>
-            <a href="#!">Forgot password?</a>
-          </div>
 
-          
-          <button type="submit" id="loginBtnId" onclick="validateForm();" class="btn btn-success btn-lg btn-block">Log in</button>
+          <div class="row">
+		  
+		  <p>Click here for view AADHAAR Center Application Dashboard</p>
+		 
+		 
 
-         
+		                </div>
+						 <div class="row">
+		  
 
-          
-          
-       
+		 
+		  <p>Click here for view District Wise Running Centre</p>
+
+		                </div>
+
+			<div class="row">
+              <div class="col-md-6">
+                <div class="form-outline">
+            <button type="button" onclick="validateForm();" class="btn btn-primary btn-block mb-4" data-toggle="modal" data-target="#exampleModalCenter">
+              SUBMIT
+            </button>
+			  </div>
+              </div>
+			  <div class="col-md-6">
+                <div class="form-outline">
+			<button type="submit" class="btn btn-primary btn-block mb-4">
+             REFRESH
+            </button>
+			  </div>
+              </div>
+              </div>
+
+           
+          </form>
+        </div>
       </div>
     </div>
   </div>
-</section> 
-	<br/>	
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		
-	<footer id="footer">
-  <div class="container">
-					<div class="row">
+</section>
+<!-- Button trigger modal -->
 
-						<!-- Footer Copy-->
-						<div id="footer_copy" class="col-md-12 text-center">	
-							<p>
-								
-								© 2022 All Rights Reserved. Design by B2B TECHNOLOGIES
-							</p>	
-						</div>	
 
-					</div>   <!-- End row -->				
-				</div>	  <!-- End container -->							
-			</footer>	<!-- END FOOTER -->	<!-- <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script> -->
-		
-		<script src="js/bootstrap-3.min.js" type="text/javascript"></script>	
-		<script src="js/modernizr.custom.js" type="text/javascript"></script>
-		<script src="js/jquery.easing.js" type="text/javascript"></script>
-		<script src="js/retina.js" type="text/javascript"></script>	
-		<script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
-		<script defer src="js/jquery.validate.min.js" type="text/javascript"></script>	
-		<script defer src="js/jquery.flexslider.js" type="text/javascript"></script>	
-		<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-		<script src="js/owl.carousel.js" type="text/javascript"></script>	
-		<script src="js/waypoints.min.js" type="text/javascript"></script>	
-		<script src="js/custom.js" type="text/javascript"></script>
-
-		
-</body>
-
-<!-- Mirrored from www.pmjay.USEINDIA.com/pmjayecard/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jun 2021 11:07:07 GMT -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLongTitle">Logging Please Wait......</h5>
+       
+      </div>
+      <div class="modal-body text-center">
+       <div class="spinner-border text-success" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Section: Design Block -->
+  
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
